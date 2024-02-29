@@ -20,7 +20,11 @@ public class DrawBullsEyesDebugApp {
 				Object[] options = { "Continue", "Exit" };
 				if (DialogBoxes.askUser(drawCase.getText(), DrawBullsEyesDebugApp.class.getSimpleName(),
 						JOptionPane.QUESTION_MESSAGE, options)) {
+					
 					//pass
+
+					
+					
 				} else {
 					break;
 				}
